@@ -1,0 +1,53 @@
+html, body {
+  height: 100%; 
+  margin: 0; 
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  background-color: #f8f9fa; 
+  padding: 20px; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+}
+
+h1 {
+  color: #343a40; 
+}
+
+.navbar {
+  background-color: #06468b; 
+  color: white; 
+  padding: 10px; 
+}
+
+.nav-links {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.nav-links li {
+  display: inline; 
+  margin-right: 15px; 
+}
+
+.nav-links a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.nav-links a:hover {
+  text-decoration: underline; 
+}
+
+.cart-widget {
+  display: inline-block;
+  margin-left: 20px; 
+}
+
+.item-list-container {
+  flex-grow: 1; 
+}
