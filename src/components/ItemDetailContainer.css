@@ -1,0 +1,28 @@
+.item-detail-container{
+    padding :20px ;
+    max-width :600px ;
+    margin :auto ;
+    border-radius :8px ;
+    box-shadow :0px4px6px rgba(0 ,0 ,0 ,0 .1) ;
+    background-color:#fff ;
+   }
+   .product-image{
+    width :100% ;
+    height:auto ;
+    margin-bottom :10px ;
+   }
+   .quantity-controls{
+    display:flex ;
+    align-items:center ;
+    gap :10px ;
+    margin-top :10px ;
+   }
+   .add-to-cart-button{
+    margin-top :10px ;
+    padding :10px20px ;
+    background-color:#007bff ;
+    color:white ;
+    border:none ;
+    cursor:pointer ;
+    border-radius :5px ;
+   }

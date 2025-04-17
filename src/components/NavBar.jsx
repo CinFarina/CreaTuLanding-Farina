@@ -1,20 +1,26 @@
 import React from 'react';
-import CartWidget from './CartWidget';
-import './NavBar.css'; 
+import { Link } from 'react-router-dom';
+import CartWidget from './CartWidget.jsx';
+import './NavBar.css';
 
-const NavBar = () => {
+function NavBar() {
     return (
         <nav className="navbar">
-            <div className="logo">Librería Scorpio</div>
+            <div className="logo">
+                {}
+                <img src="/logo.png" alt="Logo" />
+            </div>
+            {}
             <ul className="nav-links">
-                <li><a href="#pinturas">Artística</a></li>
-                <li><a href="#productos">Comercial</a></li>
-                <li><a href="#escuela">Escolar</a></li>
-                <li><a href="#regalos">Regalería</a></li>
+                <li><Link to="/">Inicio</Link></li>
+                <li><Link to="/category/artistica">Artística</Link></li>
+                <li><Link to="/category/comercial">Comercial</Link></li>
+                <li><Link to="/category/escolar">Escolar</Link></li>
             </ul>
+            {}
             <CartWidget />
         </nav>
     );
-};
+}
 
 export default NavBar;

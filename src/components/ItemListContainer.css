@@ -1,3 +1,16 @@
 .item-list-container {
-    padding: 20px;
-}
+  padding:20px;
+ }
+ 
+ .category-nav {
+  margin-bottom:20px;
+  display:flex; gap:15px;
+ }
+ 
+ .product-grid {
+  display:flex; flex-wrap:true; gap:10px;
+ }
+ 
+ .product-item {
+  border-radius:8px; border:1px solid #ccc; padding:10px;width:auto;width:max-content;width:auto;width:auto;width:auto;margin:auto;text-align:center;}
+ .product-image { width:100%; height:auto;}
